@@ -1,0 +1,63 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite name="PLD Suite">
+
+<test name="Practice Leader DashBoard">
+ <parameter name="PIAccess" value="USA"/>
+  <parameter name="Country" value="Portugal">
+    <classes>
+	  <class name="com.pld.Test.LoginPageTest"/>
+	   <class name="com.pld.Test.VerifyUtilizationTest"/>
+	   <class name="com.pld.restassured.dashboard.UtilisationAPIOneTest"/>
+	   <class name="com.pld.Test.UtilizationExpansionTest"/>
+	   <class name="com.pld.restassured.QtrEndProjValuesTest"/>
+	   <class name="com.pld.Test.BenchTileTest"/>
+	   <class name="com.pld.restassured.dashboard.BenchAsOfAPITest"/>
+	   <class name="com.pld.Test.BenchTileExpansionTest"/>
+	   <class name="com.pld.restassured.BenchAgeByCatrgoryTest"/>
+	   <class name="com.pld.Test.UtilizationLadderTest"/>
+	   <class name="com.pld.restassured.dashboard.UtilizationladderAPITest"/>
+	   <class name="com.pld.Test.UtilLadExpansionTest"/>
+	   <class name="com.pld.restassured.UtilLadDistByBandTest"/>
+	   <class name="com.pld.Test.FTEbyContractCoadingTest"/>
+	   <class name="com.pld.restassured.dashboard.FTEByContractAPITest"/>
+	   <class name="com.pld.Test.FTEByContractCodingExpTest"/>
+	   <class name="com.pld.restassured.FTEByContractCoadingAPITest"/>
+	   <class name="com.pld.Test.DemandTest"/>
+	   <class name="com.pld.restassured.dashboard.DemandAPITest"/>
+	   <class name="com.pld.Test.DemandTileExpTest"/>
+	   <class name="com.pld.restassured.DemandClientAndSkillTest"/>
+	   <class name="com.pld.Test.BandPyramidTest"/>
+	   <class name="com.pld.restassured.dashboard.BandPyramidAPITest"/>
+	   <class name="com.pld.Test.BandPyramidExpTest"/>
+	   <class name="com.pld.restassured.BandPyramidAPITest"/>
+	   <class name="com.pld.Test.DemandCoverageTest"/>
+	   <class name="com.pld.restassured.dashboard.DemandCoverageAsOfTest"/>
+	   <class name="com.pld.Test.DemandCoverageExpTest"/>
+	   <class name="com.pld.restassured.DemandCoverageAPITest"/>
+	   <class name="com.pld.Test.HiringTileTest"/>
+	   <class name="com.pld.restassured.dashboard.HiringAPITest"/>
+	   <class name="com.pld.Test.HiringExpTest"/>
+	   <class name="com.pld.restassured.HiringAPITest"/>
+	   <class name="com.pld.Test.CareerTileTest"/>
+	   <class name="com.pld.restassured.dashboard.CareerAPITest"/>
+	   <class name="com.pld.Test.CareerExpTest"/>
+	   <class name="com.pld.restassured.CareerAPITest"/>
+	   <class name="com.pld.Test.AttritionTileTest"/>
+	   <class name="com.pld.restassured.dashboard.AttritionAPITest"/>
+	   <class name="com.pld.Test.GapTileTest"/>
+	   <class name="com.pld.restassured.dashboard.GapAPITest"/>
+	   <class name="com.pld.Test.GapTileExpTest"/>
+	   <class name="com.pld.restassured.GapSupplyAndDemandAPITest"/>
+	  <class name="com.pld.Test.LearningTileTest"/>
+	  <class name="com.pld.restassured.dashboard.LearningAPITest"/>
+	  <class name="com.pld.Test.LearningExpTest"/>
+	  <class name="com.pld.restassured.LearningTrainingDetailsYTDTableAPITest"/>
+	 
+	 
+	   
+	    </classes>
+	   
+   </parameter>
+  </test> 
+</suite>

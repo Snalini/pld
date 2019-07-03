@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [PLD Suite]]">
+  <test name="Utilization(failed)(failed)">
+    <classes>
+      <class name="com.pld.Test.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.pld.Test.LoginPageTest -->
+      <class name="com.pld.Test.LearningTileTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.pld.Test.LearningTileTest -->
+      <class name="com.pld.Test.UtilizationLadderTest">
+        <methods>
+          <include name="verifyChargeableHCTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.pld.Test.UtilizationLadderTest -->
+    </classes>
+  </test> <!-- Utilization(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [PLD Suite]] -->

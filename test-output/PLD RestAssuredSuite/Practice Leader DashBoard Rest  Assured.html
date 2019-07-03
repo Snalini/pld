@@ -1,0 +1,224 @@
+<html>
+<head>
+<title>TestNG:  Practice Leader DashBoard Rest  Assured</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Practice Leader DashBoard Rest  Assured</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>29/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Mar 18 11:28:50 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>33 seconds (33341 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.pld.restassured.dashboard.AttritionAPI.verifyAnnualizedRatesAndVoluntaryLosses()'><b>verifyAnnualizedRatesAndVoluntaryLosses</b><br>Test class: com.pld.restassured.dashboard.AttritionAPI</td>
+<td></td>
+<td>3</td>
+<td>com.pld.restassured.dashboard.AttritionAPI@185d8b6</td></tr>
+<tr>
+<td title='com.pld.restassured.dashboard.AttritionAPI.verifyAttritionAsOF()'><b>verifyAttritionAsOF</b><br>Test class: com.pld.restassured.dashboard.AttritionAPI</td>
+<td></td>
+<td>0</td>
+<td>com.pld.restassured.dashboard.AttritionAPI@185d8b6</td></tr>
+<tr>
+<td title='com.pld.restassured.dashboard.AttritionAPI.verifyAttritionByband()'><b>verifyAttritionByband</b><br>Test class: com.pld.restassured.dashboard.AttritionAPI</td>
+<td></td>
+<td>1</td>
+<td>com.pld.restassured.dashboard.AttritionAPI@185d8b6</td></tr>
+<tr>
+<td title='com.pld.restassured.dashboard.AttritionAPI.verifyAttritionLossReason()'><b>verifyAttritionLossReason</b><br>Test class: com.pld.restassured.dashboard.AttritionAPI</td>
+<td></td>
+<td>0</td>
+<td>com.pld.restassured.dashboard.AttritionAPI@185d8b6</td></tr>
+<tr>
+<td title='com.pld.restassured.dashboard.BandPyramidAPI.verifyBandPyramidAsOf()'><b>verifyBandPyramidAsOf</b><br>Test class: com.pld.restassured.dashboard.BandPyramidAPI</td>
+<td></td>
+<td>0</td>
+<td>com.pld.restassured.dashboard.BandPyramidAPI@6c3708b3</td></tr>
+<tr>
+<td title='com.pld.restassured.dashboard.BandPyramidAPI.verifyBandPyramidChart()'><b>verifyBandPyramidChart</b><br>Test class: com.pld.restassured.dashboard.BandPyramidAPI</td>
+<td></td>
+<td>1</td>
+<td>com.pld.restassured.dashboard.BandPyramidAPI@6c3708b3</td></tr>
+<tr>
+<td title='com.pld.restassured.dashboard.BenchAsOfAPI.verifyBenchAsOF()'><b>verifyBenchAsOF</b><br>Test class: com.pld.restassured.dashboard.BenchAsOfAPI</td>
+<td></td>
+<td>0</td>
+<td>com.pld.restassured.dashboard.BenchAsOfAPI@eec5a4a</td></tr>
+<tr>
+<td title='com.pld.restassured.dashboard.BenchAsOfAPI.verifyBenchMixChart()'><b>verifyBenchMixChart</b><br>Test class: com.pld.restassured.dashboard.BenchAsOfAPI</td>
+<td></td>
+<td>0</td>
+<td>com.pld.restassured.dashboard.BenchAsOfAPI@eec5a4a</td></tr>
+<tr>
+<td title='com.pld.restassured.dashboard.BenchAsOfAPI.verifyBenchTable()'><b>verifyBenchTable</b><br>Test class: com.pld.restassured.dashboard.BenchAsOfAPI</td>
+<td></td>
+<td>0</td>
+<td>com.pld.restassured.dashboard.BenchAsOfAPI@eec5a4a</td></tr>
+<tr>
+<td title='com.pld.restassured.dashboard.CareerAPI.verifyCareerAsOf()'><b>verifyCareerAsOf</b><br>Test class: com.pld.restassured.dashboard.CareerAPI</td>
+<td></td>
+<td>0</td>
+<td>com.pld.restassured.dashboard.CareerAPI@6f1fba17</td></tr>
+<tr>
+<td title='com.pld.restassured.dashboard.CareerAPI.verifyCareerTable()'><b>verifyCareerTable</b><br>Test class: com.pld.restassured.dashboard.CareerAPI</td>
+<td></td>
+<td>1</td>
+<td>com.pld.restassured.dashboard.CareerAPI@6f1fba17</td></tr>
+<tr>
+<td title='com.pld.restassured.dashboard.DemandAPI.verifyCoverageDelas()'><b>verifyCoverageDelas</b><br>Test class: com.pld.restassured.dashboard.DemandAPI</td>
+<td></td>
+<td>0</td>
+<td>com.pld.restassured.dashboard.DemandAPI@71423665</td></tr>
+<tr>
+<td title='com.pld.restassured.dashboard.LearningAPI.verifyDaysOrpersonByDeliveryType()'><b>verifyDaysOrpersonByDeliveryType</b><br>Test class: com.pld.restassured.dashboard.LearningAPI</td>
+<td></td>
+<td>2</td>
+<td>com.pld.restassured.dashboard.LearningAPI@67784306</td></tr>
+<tr>
+<td title='com.pld.restassured.dashboard.DemandAPI.verifyDemandAsOf()'><b>verifyDemandAsOf</b><br>Test class: com.pld.restassured.dashboard.DemandAPI</td>
+<td></td>
+<td>0</td>
+<td>com.pld.restassured.dashboard.DemandAPI@71423665</td></tr>
+<tr>
+<td title='com.pld.restassured.dashboard.DemandAPI.verifyDemandByCapapcityGroupGraph()'><b>verifyDemandByCapapcityGroupGraph</b><br>Test class: com.pld.restassured.dashboard.DemandAPI</td>
+<td></td>
+<td>0</td>
+<td>com.pld.restassured.dashboard.DemandAPI@71423665</td></tr>
+<tr>
+<td title='com.pld.restassured.dashboard.GapAPI.verifyGapAsOf()'><b>verifyGapAsOf</b><br>Test class: com.pld.restassured.dashboard.GapAPI</td>
+<td></td>
+<td>0</td>
+<td>com.pld.restassured.dashboard.GapAPI@3e9b1010</td></tr>
+<tr>
+<td title='com.pld.restassured.dashboard.GapAPI.verifyGapChart()'><b>verifyGapChart</b><br>Test class: com.pld.restassured.dashboard.GapAPI</td>
+<td></td>
+<td>1</td>
+<td>com.pld.restassured.dashboard.GapAPI@3e9b1010</td></tr>
+<tr>
+<td title='com.pld.restassured.dashboard.HiringAPI.verifyHiringAsOf()'><b>verifyHiringAsOf</b><br>Test class: com.pld.restassured.dashboard.HiringAPI</td>
+<td></td>
+<td>0</td>
+<td>com.pld.restassured.dashboard.HiringAPI@2b2948e2</td></tr>
+<tr>
+<td title='com.pld.restassured.dashboard.HiringAPI.verifyHiringTable()'><b>verifyHiringTable</b><br>Test class: com.pld.restassured.dashboard.HiringAPI</td>
+<td></td>
+<td>0</td>
+<td>com.pld.restassured.dashboard.HiringAPI@2b2948e2</td></tr>
+<tr>
+<td title='com.pld.restassured.dashboard.LearningAPI.verifyLearningAsOf()'><b>verifyLearningAsOf</b><br>Test class: com.pld.restassured.dashboard.LearningAPI</td>
+<td></td>
+<td>0</td>
+<td>com.pld.restassured.dashboard.LearningAPI@67784306</td></tr>
+<tr>
+<td title='com.pld.restassured.dashboard.DemandAPI.verifyOpenPositionChart()'><b>verifyOpenPositionChart</b><br>Test class: com.pld.restassured.dashboard.DemandAPI</td>
+<td></td>
+<td>0</td>
+<td>com.pld.restassured.dashboard.DemandAPI@71423665</td></tr>
+<tr>
+<td title='com.pld.restassured.dashboard.LearningAPI.verifyThinkFourty()'><b>verifyThinkFourty</b><br>Test class: com.pld.restassured.dashboard.LearningAPI</td>
+<td></td>
+<td>0</td>
+<td>com.pld.restassured.dashboard.LearningAPI@67784306</td></tr>
+<tr>
+<td title='com.pld.restassured.dashboard.DemandAPI.verifyTotal()'><b>verifyTotal</b><br>Test class: com.pld.restassured.dashboard.DemandAPI</td>
+<td></td>
+<td>1</td>
+<td>com.pld.restassured.dashboard.DemandAPI@71423665</td></tr>
+<tr>
+<td title='com.pld.restassured.dashboard.UtilizationladderAPI.verifyTotalHC()'><b>verifyTotalHC</b><br>Test class: com.pld.restassured.dashboard.UtilizationladderAPI</td>
+<td></td>
+<td>0</td>
+<td>com.pld.restassured.dashboard.UtilizationladderAPI@210366b4</td></tr>
+<tr>
+<td title='com.pld.restassured.dashboard.LearningAPI.verifyTrainingDays()'><b>verifyTrainingDays</b><br>Test class: com.pld.restassured.dashboard.LearningAPI</td>
+<td></td>
+<td>0</td>
+<td>com.pld.restassured.dashboard.LearningAPI@67784306</td></tr>
+<tr>
+<td title='com.pld.restassured.dashboard.UtilizationAPI.verifyUtilizationAsOf()'><b>verifyUtilizationAsOf</b><br>Test class: com.pld.restassured.dashboard.UtilizationAPI</td>
+<td></td>
+<td>1</td>
+<td>com.pld.restassured.dashboard.UtilizationAPI@335eadca</td></tr>
+<tr>
+<td title='com.pld.restassured.dashboard.UtilizationladderAPI.verifyUtilizationLadder()'><b>verifyUtilizationLadder</b><br>Test class: com.pld.restassured.dashboard.UtilizationladderAPI</td>
+<td></td>
+<td>0</td>
+<td>com.pld.restassured.dashboard.UtilizationladderAPI@210366b4</td></tr>
+<tr>
+<td title='com.pld.restassured.dashboard.UtilizationAPI.verifyUtilizationQTDGraph()'><b>verifyUtilizationQTDGraph</b><br>Test class: com.pld.restassured.dashboard.UtilizationAPI</td>
+<td></td>
+<td>4</td>
+<td>com.pld.restassured.dashboard.UtilizationAPI@335eadca</td></tr>
+<tr>
+<td title='com.pld.restassured.dashboard.UtilizationladderAPI.verifyUtilladAsOF()'><b>verifyUtilladAsOF</b><br>Test class: com.pld.restassured.dashboard.UtilizationladderAPI</td>
+<td></td>
+<td>1</td>
+<td>com.pld.restassured.dashboard.UtilizationladderAPI@210366b4</td></tr>
+</table><p>
+</body>
+</html>

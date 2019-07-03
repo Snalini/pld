@@ -1,0 +1,79 @@
+Argentina
+Australia
+Austria
+Azerbaijan
+Belgium
+Brazil
+Bulgaria
+Burkina Faso
+Canada
+Chile
+China Onshore
+Colombia
+Congo, The Democratic Republic of the
+Costa Rica
+Croatia
+Cyprus
+Czech Republic
+Denmark
+Ecuador
+Egypt
+Finland
+France
+Germany
+Ghana
+Greece
+Hong Kong/China Offshore
+Hungary
+IBM GLOBAL SERVICES PTE. LTD
+India
+Indonesia
+Ireland
+Israel
+Italy
+Jamaica
+Japan
+Kenya
+Korea
+Latvia
+Lithuania
+Luxembourg
+Malaysia
+Malta
+Mexico
+Middle East FZE
+Morocco
+Netherlands
+New Zealand
+Nigeria
+Norway
+Pakistan
+Peru
+Philippines
+Poland
+Portugal
+Qatar
+Romania
+Russia
+Saudi Arabia
+Serbia, Republic of
+Singapore
+Slovakia
+Slovenia
+South Africa
+Spain
+Sri Lanka
+Sweden
+Switzerland
+Taiwan
+Tanzania, United Republic of
+Thailand
+Tunisia
+Turkey
+Uganda
+Ukraine, Republic of
+United Kingdom
+United States of America
+Uruguay
+Venezuela
+Vietnam

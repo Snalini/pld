@@ -1,0 +1,18 @@
+ANZ
+Asean
+Benelux
+CEE
+Canada/LCR
+DACH
+France
+GCG
+ISA
+Italy
+Japan
+Korea
+LA
+MEA
+Nordic
+SPGI
+UKI
+United States

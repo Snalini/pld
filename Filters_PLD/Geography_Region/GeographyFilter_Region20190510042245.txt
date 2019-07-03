@@ -1,0 +1,31 @@
+ANZ
+Asean
+Benelux
+Brazil
+Canada
+Central
+DACH
+East Africa
+Egypt
+France
+GCG
+Gulf & Levant
+ISA
+Italy
+Japan
+Korea
+Mexico
+Nordic
+North West Africa
+Pakistan
+Poland
+RCIS
+SEE
+SPGI
+SSA
+Saudi Arabia
+Southern Africa
+Turkey
+UKI
+US Commercial
+US Federal

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PLD Suite]">
+  <parameter name="Country" value="Portugal"/>
+  <parameter name="PIAccess" value="USA"/>
+  <test name="Practice Leader DashBoard(failed)">
+    <parameter name="Country" value="Portugal"/>
+    <parameter name="PIAccess" value="USA"/>
+    <classes>
+      <class name="com.pld.Test.VerifyUtilizationTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.pld.Test.VerifyUtilizationTest -->
+      <class name="com.pld.Test.DemandTileExpTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.pld.Test.DemandTileExpTest -->
+      <class name="com.pld.Test.LearningExpTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.pld.Test.LearningExpTest -->
+      <class name="com.pld.Test.BenchTileTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.pld.Test.BenchTileTest -->
+      <class name="com.pld.Test.BandPyramidExpTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.pld.Test.BandPyramidExpTest -->
+      <class name="com.pld.restassured.BenchAgeByCatrgoryTest">
+        <methods>
+          <include name="verifyBenchEmployeeRollOff"/>
+        </methods>
+      </class> <!-- com.pld.restassured.BenchAgeByCatrgoryTest -->
+      <class name="com.pld.Test.UtilizationLadderTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.pld.Test.UtilizationLadderTest -->
+      <class name="com.pld.Test.UtilLadExpansionTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.pld.Test.UtilLadExpansionTest -->
+      <class name="com.pld.Test.BenchTileExpansionTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.pld.Test.BenchTileExpansionTest -->
+      <class name="com.pld.Test.AttritionTileTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.pld.Test.AttritionTileTest -->
+      <class name="com.pld.Test.LearningTileTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.pld.Test.LearningTileTest -->
+      <class name="com.pld.Test.HiringTileTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.pld.Test.HiringTileTest -->
+      <class name="com.pld.Test.DemandTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.pld.Test.DemandTest -->
+      <class name="com.pld.restassured.HiringAPITest">
+        <methods>
+          <include name="verifyRecentJoiners"/>
+        </methods>
+      </class> <!-- com.pld.restassured.HiringAPITest -->
+      <class name="com.pld.Test.CareerTileTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.pld.Test.CareerTileTest -->
+      <class name="com.pld.Test.UtilizationExpansionTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.pld.Test.UtilizationExpansionTest -->
+      <class name="com.pld.restassured.UtilLadDistByBandTest">
+        <methods>
+          <include name="verifyUtilizationEmployeesTest"/>
+        </methods>
+      </class> <!-- com.pld.restassured.UtilLadDistByBandTest -->
+      <class name="com.pld.Test.GapTileTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.pld.Test.GapTileTest -->
+      <class name="com.pld.Test.GapTileExpTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.pld.Test.GapTileExpTest -->
+      <class name="com.pld.Test.FTEByContractCodingExpTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.pld.Test.FTEByContractCodingExpTest -->
+      <class name="com.pld.restassured.DemandClientAndSkillTest">
+        <methods>
+          <include name="verifyOpenPositionChartdata"/>
+        </methods>
+      </class> <!-- com.pld.restassured.DemandClientAndSkillTest -->
+      <class name="com.pld.restassured.BandPyramidAPITest">
+        <methods>
+          <include name="verifyEmployeeTable2"/>
+        </methods>
+      </class> <!-- com.pld.restassured.BandPyramidAPITest -->
+      <class name="com.pld.Test.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.pld.Test.LoginPageTest -->
+      <class name="com.pld.Test.CareerExpTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.pld.Test.CareerExpTest -->
+      <class name="com.pld.Test.FTEbyContractCoadingTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.pld.Test.FTEbyContractCoadingTest -->
+      <class name="com.pld.Test.BandPyramidTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.pld.Test.BandPyramidTest -->
+      <class name="com.pld.Test.DemandCoverageTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.pld.Test.DemandCoverageTest -->
+      <class name="com.pld.Test.HiringExpTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.pld.Test.HiringExpTest -->
+      <class name="com.pld.Test.DemandCoverageExpTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.pld.Test.DemandCoverageExpTest -->
+    </classes>
+  </test> <!-- Practice Leader DashBoard(failed) -->
+</suite> <!-- Failed suite [PLD Suite] -->
